@@ -5,10 +5,10 @@ Unlocks PAYDAY 2 DLCs
 
 On start, creates a dlcs-to-unlock.txt file in your /PAYDAY 2/mods/saves folder. By default has a `"*"` in it, which means all dlcs are unlocked. If you want to unlock only specific dlcs, replace the star with dlc ids from [Steam DB](https://steamdb.info/app/218620/dlc/).
 
-#Examples for dlcs-to-unlock.txt:
+# Examples for dlcs-to-unlock.txt:
 
-##Unlock all heists post white house:
-2074240
+## Unlock all heists post white house:
+2074240\n
 1945681
 1906240
 1778790
@@ -20,7 +20,7 @@ On start, creates a dlcs-to-unlock.txt file in your /PAYDAY 2/mods/saves folder.
 1555040
 2215010
 
-##Unlock all characters:
+## Unlock all characters:
 337661
 338951
 344140
