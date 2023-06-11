@@ -32,5 +32,5 @@ On start, creates a dlcs-to-unlock.txt file in your /PAYDAY 2/mods/saves folder.
 548422  
 758420  
 
-#Hide from anticheat mods:
+## Hide from anticheat mods:
 While using most of the content you dont own, simply having this installed doesn't get you flagged by the game, however anticheat mods will detect it, so its better to rename the folder and the lua file and change the name and scriptpath in mod.txt
