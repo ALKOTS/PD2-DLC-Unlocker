@@ -4,7 +4,7 @@ Unpack the folder into your /PAYDAY 2/mods/ folder.
 
 # How this works:
 
-On start, creates a dlcs-to-unlock.txt file in your /PAYDAY 2/mods/saves folder. By default has a `"*"` in it, which means all dlcs are unlocked. If you want to unlock only specific dlcs, replace the star with dlc ids from [Steam DB](https://steamdb.info/app/218620/dlc/).
+It reates a dlcs-to-unlock.txt file in the mod folder. By default has a `"*"` in it, which means all dlcs are unlocked. If you want to unlock only specific dlcs, replace the star with dlc ids from [Steam DB](https://steamdb.info/app/218620/dlc/).
 
 # Examples for dlcs-to-unlock.txt:
 
