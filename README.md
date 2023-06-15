@@ -56,17 +56,17 @@ corp
 
 ## Unlock all characters:
 
-character_pack_clover
-hl_miami
-character_pack_dragan
-character_pack_sokol
-hlm2_deluxe
-dragon
-chico
-opera
-wild
-ecp
-john_wick_character
+character_pack_clover 
+hl_miami 
+character_pack_dragan 
+character_pack_sokol 
+hlm2_deluxe 
+dragon 
+chico 
+opera 
+wild 
+ecp 
+john_wick_character 
 
 ## Hide from anticheat mods:
 While using most of the content you dont own will get you marked as cheater, simply having this installed doesn't get you flagged by the game, however anticheat mods will detect it, so its better to rename the folder and the lua file and change the name and scriptpath in mod.txt
