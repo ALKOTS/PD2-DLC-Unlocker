@@ -30,6 +30,9 @@ function get_heists()
 end
 
 
+old_steam_check = old_steam_check or WinSteamDLCManager._check_dlc_data
+
+
 function WinSteamDLCManager:_check_dlc_data(dlc_data)
     if(heists[1] == nil) then
         get_heists()
@@ -39,23 +42,17 @@ function WinSteamDLCManager:_check_dlc_data(dlc_data)
         return true
     end
 
-    if dlc_data.app_id then
-        if has_value(heists, dlc_data.app_id) then
-            return true 
-        end
-
-        if dlc_data.no_install then
-            if Steam:is_product_owned(dlc_data.app_id) then
-                return true
-            end
-        elseif Steam:is_product_installed(dlc_data.app_id) then
-            return true
-        end
-    elseif dlc_data.source_id and Steam:is_user_in_source(Steam:userid(), dlc_data.source_id) then
-        return true
+    if has_value(heists, dlc_data.app_id) then
+        return true 
     end
+
+    return old_steam_check(self, dlc_data)
+
 end
 
 function WinEpicDLCManager:_check_dlc_data(dlc_data)
+    return true
+end
+function WINDLCManager:_check_dlc_data(dlc_data)
     return true
 end
