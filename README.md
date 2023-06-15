@@ -4,7 +4,7 @@ Unpack the folder into your /PAYDAY 2/mods/ folder.
 
 # How this works:
 
-##Steam
+## Steam
 It creates a steam-dlcs-to-unlock.txt file in the mod folder. By default has a `"*"` in it, which means all dlcs are unlocked. If you want to unlock only specific dlcs, replace the star with dlc ids from [Steam DB](https://steamdb.info/app/218620/dlc/).
 
 # Examples for steam-dlcs-to-unlock.txt:
@@ -35,7 +35,7 @@ It creates a steam-dlcs-to-unlock.txt file in the mod folder. By default has a `
 548422  
 758420  
 
-##EGS
+## EGS
 It creates a epic-dlcs-to-unlock.txt file in the mod folder. By default has a `"*"` in it, which means all dlcs are unlocked. If you want to unlock only specific dlcs, replace the star with dlc names from debug.txt. Dlc ids can be found on [Steam DB](https://steamdb.info/app/218620/dlc/).
 
 # Examples for epic-dlcs-to-unlock.txt:
